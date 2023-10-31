@@ -1,0 +1,154 @@
+html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Salman Khan's Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+      background-image: url('your-background-image-url');
+      background-size: cover;
+      background-position: center;
+    }
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      font-size: 36px;
+      font-weight: bold;
+    }
+    p {
+      font-size: 18px;
+      color: #777;
+    }
+    nav {
+      background-color: #f4f4f4;
+      padding: 10px;
+      text-align: center;
+    }
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      padding: 5px;
+      font-size: 16px;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+    nav ul li a:hover {
+      color: #777;
+    }
+    section {
+      padding: 20px;
+    }
+    .resume-button {
+      display: inline-block;
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      text-decoration: none;
+      margin-bottom: 10px;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+    .resume-button:hover {
+      background-color: #777;
+    }
+    .project {
+      margin-bottom: 20px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+    .project:hover {
+      transform: scale(1.05);
+    }
+    .profile-picture {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+      border: 4px solid #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.1);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Salman Khan</h1>
+    <img src="Salman.jpg" alt="Profile Picture" class="profile-picture">
+    <p>BSc. Computer Science</p>
+  </header>
+  
+  <nav>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+    </ul>
+  </nav>
+  
+  <section id="about">
+    <h2>About</h2>
+    <p>3rd year BSc.Computer Science in Chikkanna Government Arts College</p>
+  </section>
+  
+  <section id="education">
+    <h2>Education</h2>
+    <p>3rd year BSc.Computer Science in Chikkanna Government Arts College</p>
+  </section>
+  
+  <section id="skills">
+    <h2>Skills</h2>
+    <p>Msword, Excel sheet. Tamil, Hindi and English.</p>
+  </section>
+  
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Project 1</h3>
+      <p>Project description goes here.</p>
+    </div>
+    <div class="project">
+      <h3>Project 2</h3>
+      <p>Project description goes here.</p>
+    </div>
+  </section>
+  
+  <a href="https://drive.google.com/file/d/1DHAKwZmTPAHjfZgpnCewcxSA_vtqxCFf/view?usp=drivesdk" class="resume-button">Download Resume</a>
+</body>
+</html>
